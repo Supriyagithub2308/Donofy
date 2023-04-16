@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-image: url('images.jfif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 50vh; /* Each row takes up 50% of the page height */
+      background-size: cover;
+      background-position: center;
+    }
+
+    .box {
+      width: 45%; /* Each box takes up 45% of the container width */
+      height: 100%; /* Each box takes up 100% of the container height */
+      background-color: #ccc;
+      background-image: url('download.jfif');
+      background-size: cover;
+      margin: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .box:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box" style="background-image: url('istockphoto-1318198538-612x612.jpg');"><font size="+5"><a href="address.html">Blood Donation</a></font></div>
+    <div class="box" style="background-image: url('images\ \(1\).jfif');"><font size="+5"><a href="address.html">Clothes Donation</a></font></div>
+    <div class="box" style="background-image: url('download\ \(1\).jfif');"><font size="+5"><a href="address.html">Money Donation</a></font></div>
+    <div class="box" style="background-image: url('download\ \(2\).jfif');"><font size="+5"><a href="address.html">Food Donation</a></font></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body{
+    background-image: url("image/backgroundimage.png");
+    width: 200px;
+   margin-left: 440px;
+padding: 130px;
+}
+h1{
+    color: black;
+    margin-left: 100px;
+    padding:2px;
+    font-family: sans-serif;
+    margin-top: 0px;
+
+}
+.con{
+    background-color: lightsalmon;
+    padding: 27px;
+    width: 333px;
+    height: 470px;
+    border-radius: 10px;
+    
+}
+.inp1{
+    border-radius: 6px;
+    width: 90%;
+    height: 30px;
+   padding: 7px;
+   margin-left: 15px;
+   font-size: 15px;
+   margin: 7px; 
+  border: none;
+
+
+}
+.inp2{
+    border-radius: 6px;
+    width: 90%;
+    height: 30px;
+   padding: 7px;
+   margin-left: 15px;
+   font-size: 15px;
+   margin: 7px;
+}
+.inp3{
+    border-radius: 6px;
+    width: 90%;
+    height: 30px;
+   padding: 7px;
+   margin-left: 15px;
+   font-size: 15px;
+   margin: 7px;
+}
+.inp4{
+    border-radius: 6px;
+    width: 90%;
+    height: 30px;
+   padding: 7px;
+   margin-left: 15px;
+   font-size: 15px;
+   margin: 7px;
+
+}
+.inp5{
+    border-radius: 6px;
+    width: 90%;
+    height: 30px;
+   padding: 7px;
+   margin-left: 15px;
+   font-size: 15px;
+   margin: 7px;
+}
+.btn{
+    border-radius: 6px;
+    width: 95%;
+    height: 40px;
+   padding: 7px;
+   margin-left: 15px;
+   font-size: 15px;
+   margin: 7px; 
+  border: none;
+
+}
+.btn:hover{
+    background-color: blue;
+}
+
+.Para{
+    color: white;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+span a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+span a:hover{
+    text-decoration: underline;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
